@@ -1,0 +1,850 @@
+[2010-09-18 13:49:22] make file.c: In function ‘file_expand_path’:
+file.c:2844: warning: ‘b’ may be used uninitialized in this function
+regcomp.c: In function ‘add_compile_string_length’:
+regcomp.c:423: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regcomp.c:431: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regcomp.c: In function ‘compile_string_raw_node’:
+regcomp.c:550: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regcomp.c: In function ‘get_char_length_tree1’:
+regcomp.c:2308: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regcomp.c:2355: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regcomp.c: In function ‘is_not_included’:
+regcomp.c:2573: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regcomp.c:2574: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regcomp.c: In function ‘update_string_node_case_fold’:
+regcomp.c:3226: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regcomp.c: In function ‘setup_tree’:
+regcomp.c:3796: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regcomp.c: In function ‘set_bm_skip’:
+regcomp.c:3936: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regcomp.c: In function ‘distance_value’:
+regcomp.c:4051: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regcomp.c: In function ‘concat_left_node_opt_info’:
+regcomp.c:4534: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regcomp.c: In function ‘optimize_node_left’:
+regcomp.c:4612: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regcomp.c: In function ‘set_optimize_exact_info’:
+regcomp.c:4951: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regcomp.c: In function ‘set_optimize_map_info’:
+regcomp.c:4970: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regcomp.c: In function ‘onig_compile’:
+regcomp.c:5328: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regcomp.c: In function ‘onig_is_code_in_cc_len’:
+regcomp.c:5682: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regcomp.c:5682: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regexec.c: In function ‘match_at’:
+regexec.c:1325: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regexec.c:1365: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regexec.c:1366: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regexec.c:1370: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regexec.c:1372: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regexec.c:1376: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regexec.c:2166: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regexec.c:2198: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regexec.c:2230: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regexec.c:2269: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regexec.c: In function ‘bm_search_notrev’:
+regexec.c:2906: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regexec.c: In function ‘set_bm_backward_skip’:
+regexec.c:2997: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regexec.c: In function ‘onig_search’:
+regexec.c:3572: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regexec.c:3623: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regexec.c:3636: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regexec.c:3646: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regexec.c:3652: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regexec.c:3683: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regexec.c:3711: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regparse.c: In function ‘node_new_cclass_by_codepoint_range’:
+regparse.c:1178: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regparse.c:1178: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regparse.c: In function ‘onig_node_str_cat’:
+regparse.c:1447: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regparse.c:1449: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regparse.c:1453: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regparse.c: In function ‘add_ctype_to_cc_by_range’:
+regparse.c:3856: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regparse.c:3856: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regparse.c:3856: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regparse.c:3856: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regparse.c:3877: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regparse.c:3877: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regparse.c:3877: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regparse.c:3877: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regparse.c:3882: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regparse.c:3882: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regparse.c:3882: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regparse.c:3882: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regparse.c: In function ‘i_apply_case_fold’:
+regparse.c:5083: warning: implicit conversion shortens 64-bit value into a 32-bit value
+regparse.c:5083: warning: implicit conversion shortens 64-bit value into a 32-bit value
+time.c: In function ‘calc_tm_yday’:
+time.c:969: warning: implicit conversion shortens 64-bit value into a 32-bit value
+./enc/emacs_mule.c: In function ‘code_to_mbc’:
+./enc/emacs_mule.c:267: warning: implicit conversion shortens 64-bit value into a 32-bit value
+./enc/euc_jp.c: In function ‘code_to_mbc’:
+./enc/euc_jp.c:196: warning: implicit conversion shortens 64-bit value into a 32-bit value
+./enc/euc_jp.c: In function ‘property_name_to_ctype’:
+./enc/euc_jp.c:296: warning: implicit conversion shortens 64-bit value into a 32-bit value
+./enc/shift_jis.c: In function ‘code_to_mbc’:
+./enc/shift_jis.c:178: warning: implicit conversion shortens 64-bit value into a 32-bit value
+./enc/utf_16le.c: In function ‘utf16le_mbc_enc_len’:
+./enc/utf_16le.c:59: warning: implicit conversion shortens 64-bit value into a 32-bit value
+./enc/utf_32be.c: In function ‘utf32be_left_adjust_char_head’:
+./enc/utf_32be.c:162: warning: implicit conversion shortens 64-bit value into a 32-bit value
+./enc/utf_32le.c: In function ‘utf32le_left_adjust_char_head’:
+./enc/utf_32le.c:162: warning: implicit conversion shortens 64-bit value into a 32-bit value
+dbm.c: In function ‘fdbm_key’:
+dbm.c:215: warning: comparison between signed and unsigned
+dbm.c: In function ‘fdbm_delete_if’:
+dbm.c:365: warning: implicit conversion shortens 64-bit value into a 32-bit value
+dbm.c: In function ‘fdbm_has_value’:
+dbm.c:634: warning: comparison between signed and unsigned
+generator.c: In function ‘convert_UTF8_to_JSON’:
+generator.c:225: warning: implicit conversion shortens 64-bit value into a 32-bit value
+generator.c: In function ‘fltoa’:
+generator.c:382: warning: implicit conversion shortens 64-bit value into a 32-bit value
+generator.c: In function ‘cState_configure’:
+generator.c:648: warning: implicit conversion shortens 64-bit value into a 32-bit value
+generator.c:656: warning: implicit conversion shortens 64-bit value into a 32-bit value
+generator.c:664: warning: implicit conversion shortens 64-bit value into a 32-bit value
+generator.c:672: warning: implicit conversion shortens 64-bit value into a 32-bit value
+generator.c:680: warning: implicit conversion shortens 64-bit value into a 32-bit value
+generator.c: In function ‘generate_json’:
+generator.c:763: warning: implicit conversion shortens 64-bit value into a 32-bit value
+generator.c:765: warning: implicit conversion shortens 64-bit value into a 32-bit value
+generator.c:769: warning: implicit conversion shortens 64-bit value into a 32-bit value
+generator.c:776: warning: implicit conversion shortens 64-bit value into a 32-bit value
+generator.c:781: warning: implicit conversion shortens 64-bit value into a 32-bit value
+generator.c:784: warning: implicit conversion shortens 64-bit value into a 32-bit value
+generator.c:807: warning: implicit conversion shortens 64-bit value into a 32-bit value
+generator.c:809: warning: implicit conversion shortens 64-bit value into a 32-bit value
+generator.c:812: warning: implicit conversion shortens 64-bit value into a 32-bit value
+generator.c:819: warning: implicit conversion shortens 64-bit value into a 32-bit value
+generator.c:822: warning: implicit conversion shortens 64-bit value into a 32-bit value
+generator.c:855: warning: implicit conversion shortens 64-bit value into a 32-bit value
+generator.c:871: warning: implicit conversion shortens 64-bit value into a 32-bit value
+generator.c:878: warning: implicit conversion shortens 64-bit value into a 32-bit value
+generator.c: In function ‘cState_partial_generate’:
+generator.c:912: warning: implicit conversion shortens 64-bit value into a 32-bit value
+generator.c:920: warning: implicit conversion shortens 64-bit value into a 32-bit value
+generator.c: In function ‘cState_init_copy’:
+generator.c:991: warning: implicit conversion shortens 64-bit value into a 32-bit value
+generator.c:992: warning: implicit conversion shortens 64-bit value into a 32-bit value
+generator.c:993: warning: implicit conversion shortens 64-bit value into a 32-bit value
+generator.c:994: warning: implicit conversion shortens 64-bit value into a 32-bit value
+generator.c:995: warning: implicit conversion shortens 64-bit value into a 32-bit value
+In file included from nkf.c:62:
+nkf-utf8/nkf.c: In function ‘numchar_getc’:
+nkf-utf8/nkf.c:4300: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl.c: In function ‘ossl_pem_passwd_cb’:
+ossl.c:173: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl.c: In function ‘ossl_make_error’:
+ossl.c:305: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_asn1.c: In function ‘obj_to_asn1bstr’:
+ossl_asn1.c:217: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_asn1.c: In function ‘obj_to_asn1str’:
+ossl_asn1.c:232: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_asn1.c: In function ‘obj_to_asn1derstr’:
+ossl_asn1.c:298: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_asn1.c: In function ‘ossl_asn1_get_asn1type’:
+ossl_asn1.c:556: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_asn1.c: In function ‘ossl_asn1data_to_der’:
+ossl_asn1.c:697: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_asn1.c:701: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_asn1.c:704: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_asn1.c:704: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_asn1.c: In function ‘ossl_asn1_decode0’:
+ossl_asn1.c:727: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_asn1.c:771: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_asn1.c:774: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_asn1.c:777: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_asn1.c:780: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_asn1.c:783: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_asn1.c:786: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_asn1.c:790: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_asn1.c: In function ‘ossl_asn1prim_to_der’:
+ossl_asn1.c:953: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_asn1.c: In function ‘ossl_asn1cons_to_der’:
+ossl_asn1.c:972: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_asn1.c:973: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_asn1.c:977: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_asn1.c:980: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_asn1.c:981: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_asn1.c:983: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_asn1.c:987: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_asn1.c:987: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_bio.c: In function ‘ossl_obj2bio’:
+ossl_bio.c:42: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_bn.c: In function ‘ossl_bn_initialize’:
+ossl_bn.c:134: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_bn.c:139: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_bn.c: In function ‘ossl_bn_to_s’:
+ossl_bn.c:199: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_bn.c:203: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_cipher.c: In function ‘ossl_cipher_init’:
+ossl_cipher.c:207: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_cipher.c: In function ‘ossl_cipher_pkcs5_keyivgen’:
+ossl_cipher.c:290: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_cipher.c: In function ‘ossl_cipher_update’:
+ossl_cipher.c:320: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_hmac.c: In function ‘ossl_hmac_initialize’:
+ossl_hmac.c:73: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_hmac.c: In function ‘ossl_hmac_hexdigest’:
+ossl_hmac.c:162: warning: comparison between signed and unsigned
+ossl_hmac.c: In function ‘ossl_hmac_s_digest’:
+ossl_hmac.c:202: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_hmac.c: In function ‘ossl_hmac_s_hexdigest’:
+ossl_hmac.c:224: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_hmac.c:225: warning: comparison between signed and unsigned
+ossl_ns_spki.c: In function ‘ossl_spki_to_der’:
+ossl_ns_spki.c:93: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_ns_spki.c:93: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_ns_spki.c: In function ‘ossl_spki_to_pem’:
+ossl_ns_spki.c:109: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_ns_spki.c: In function ‘ossl_spki_set_challenge’:
+ossl_ns_spki.c:187: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_ocsp.c: In function ‘ossl_ocspreq_add_nonce’:
+ossl_ocsp.c:139: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_ocsp.c: In function ‘ossl_ocspreq_verify’:
+ossl_ocsp.c:248: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_ocsp.c: In function ‘ossl_ocspreq_to_der’:
+ossl_ocsp.c:273: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_ocsp.c:273: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_ocsp.c: In function ‘ossl_ocspres_to_der’:
+ossl_ocsp.c:387: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_ocsp.c:387: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_ocsp.c: In function ‘ossl_ocspbres_add_nonce’:
+ossl_ocsp.c:443: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_ocsp.c: In function ‘ossl_ocspbres_verify’:
+ossl_ocsp.c:604: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_pkcs12.c: In function ‘ossl_pkcs12_to_der’:
+ossl_pkcs12.c:189: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_pkcs12.c:189: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_pkcs5.c: In function ‘ossl_pkcs5_pbkdf2_hmac_sha1’:
+ossl_pkcs5.c:77: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_pkcs5.c:77: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_pkcs7.c: In function ‘ossl_pkcs7_sym2typeid’:
+ossl_pkcs7.c:376: warning: comparison between signed and unsigned
+ossl_pkcs7.c: In function ‘ossl_pkcs7_to_der’:
+ossl_pkcs7.c:806: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_pkcs7.c:806: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_pkey.c: In function ‘ossl_pkey_verify’:
+ossl_pkey.c:197: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_pkey_dh.c: In function ‘ossl_dh_to_der’:
+ossl_pkey_dh.c:260: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_pkey_dh.c:260: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_pkey_dh.c: In function ‘ossl_create_dh’:
+ossl_pkey_dh.c:476: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_pkey_dh.c:477: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_pkey_dsa.c: In function ‘ossl_dsa_to_der’:
+ossl_pkey_dsa.c:295: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_pkey_dsa.c:295: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_pkey_dsa.c: In function ‘ossl_dsa_sign’:
+ossl_pkey_dsa.c:401: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_pkey_dsa.c: In function ‘ossl_dsa_verify’:
+ossl_pkey_dsa.c:425: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_pkey_dsa.c:425: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_pkey_ec.c: In function ‘ossl_ec_key_dsa_sign_asn1’:
+ossl_pkey_ec.c:674: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_pkey_ec.c: In function ‘ossl_ec_key_dsa_verify_asn1’:
+ossl_pkey_ec.c:696: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_pkey_ec.c:696: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_pkey_ec.c: In function ‘ossl_s_builtin_curves’:
+ossl_pkey_ec.c:968: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_pkey_ec.c: In function ‘ossl_ec_group_set_seed’:
+ossl_pkey_ec.c:1110: warning: comparison between signed and unsigned
+ossl_pkey_rsa.c: In function ‘ossl_rsa_s_generate’:
+ossl_pkey_rsa.c:106: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_pkey_rsa.c: In function ‘ossl_rsa_initialize’:
+ossl_pkey_rsa.c:145: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_pkey_rsa.c: In function ‘ossl_rsa_to_der’:
+ossl_pkey_rsa.c:294: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_pkey_rsa.c:294: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_pkey_rsa.c: In function ‘ossl_rsa_public_encrypt’:
+ossl_pkey_rsa.c:320: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_pkey_rsa.c: In function ‘ossl_rsa_public_decrypt’:
+ossl_pkey_rsa.c:346: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_pkey_rsa.c: In function ‘ossl_rsa_private_encrypt’:
+ossl_pkey_rsa.c:375: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_pkey_rsa.c: In function ‘ossl_rsa_private_decrypt’:
+ossl_pkey_rsa.c:405: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_rand.c: In function ‘ossl_rand_seed’:
+ossl_rand.c:40: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_rand.c: In function ‘ossl_rand_add’:
+ossl_rand.c:54: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_rand.c: In function ‘ossl_rand_egd_bytes’:
+ossl_rand.c:156: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_ssl.c: In function ‘ossl_client_cert_cb’:
+ossl_ssl.c:233: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_ssl.c: In function ‘ossl_tmp_dh_callback’:
+ossl_ssl.c:270: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_ssl.c: In function ‘ossl_sslctx_setup’:
+ossl_ssl.c:625: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_ssl.c:635: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_ssl.c: In function ‘ossl_ssl_read_internal’:
+ossl_ssl.c:1184: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_ssl.c: In function ‘ossl_ssl_write_internal’:
+ossl_ssl.c:1263: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_ssl_session.c: In function ‘ossl_ssl_session_to_der’:
+ossl_ssl_session.c:208: warning: comparison between signed and unsigned
+ossl_x509attr.c: In function ‘ossl_x509attr_get_value’:
+ossl_x509attr.c:218: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_x509attr.c:218: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_x509attr.c:228: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_x509attr.c:228: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_x509cert.c: In function ‘ossl_x509_to_der’:
+ossl_x509cert.c:198: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_x509cert.c:198: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_x509ext.c: In function ‘ossl_x509ext_set_value’:
+ossl_x509ext.c:331: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_x509ext.c: In function ‘ossl_x509ext_to_der’:
+ossl_x509ext.c:418: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_x509ext.c:418: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_x509name.c: In function ‘ossl_x509name_add_entry’:
+ossl_x509name.c:170: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_x509name.c: In function ‘ossl_x509name_to_der’:
+ossl_x509name.c:328: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_x509name.c:328: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_x509name.c: In function ‘Init_ossl_x509name’:
+ossl_x509name.c:341: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_x509req.c: In function ‘ossl_x509req_to_der’:
+ossl_x509req.c:179: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_x509req.c:179: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_x509store.c: In function ‘ossl_x509store_set_purpose’:
+ossl_x509store.c:176: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_x509store.c: In function ‘ossl_x509store_set_trust’:
+ossl_x509store.c:192: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_x509store.c: In function ‘ossl_x509stctx_set_purpose’:
+ossl_x509store.c:543: warning: implicit conversion shortens 64-bit value into a 32-bit value
+ossl_x509store.c: In function ‘ossl_x509stctx_set_trust’:
+ossl_x509store.c:555: warning: implicit conversion shortens 64-bit value into a 32-bit value
+yaml.h is missing. Please install libyaml.
+_sdbm.c: In function ‘sdbm_open’:
+_sdbm.c:160: warning: implicit conversion shortens 64-bit value into a 32-bit value
+_sdbm.c: In function ‘fitpair’:
+_sdbm.c:646: warning: implicit conversion shortens 64-bit value into a 32-bit value
+_sdbm.c:647: warning: implicit conversion shortens 64-bit value into a 32-bit value
+_sdbm.c: In function ‘delpair’:
+_sdbm.c:753: warning: implicit conversion shortens 64-bit value into a 32-bit value
+_sdbm.c: In function ‘chkpage’:
+_sdbm.c:864: warning: comparison between signed and unsigned
+init.c: In function ‘fsdbm_fetch’:
+init.c:148: warning: implicit conversion shortens 64-bit value into a 32-bit value
+init.c: In function ‘fsdbm_key’:
+init.c:188: warning: implicit conversion shortens 64-bit value into a 32-bit value
+init.c: In function ‘fsdbm_delete’:
+init.c:262: warning: implicit conversion shortens 64-bit value into a 32-bit value
+init.c: In function ‘fsdbm_delete_if’:
+init.c:337: warning: implicit conversion shortens 64-bit value into a 32-bit value
+init.c:343: warning: implicit conversion shortens 64-bit value into a 32-bit value
+init.c: In function ‘fsdbm_store’:
+init.c:404: warning: implicit conversion shortens 64-bit value into a 32-bit value
+init.c:407: warning: implicit conversion shortens 64-bit value into a 32-bit value
+init.c: In function ‘fsdbm_has_key’:
+init.c:591: warning: implicit conversion shortens 64-bit value into a 32-bit value
+init.c: In function ‘fsdbm_has_value’:
+init.c:608: warning: implicit conversion shortens 64-bit value into a 32-bit value
+raddrinfo.c: In function ‘nogvl_getaddrinfo’:
+raddrinfo.c:140: warning: passing argument 3 of ‘ruby_getaddrinfo__darwin’ discards qualifiers from pointer target type
+strscan.c: In function ‘strscan_do_scan’:
+strscan.c:425: warning: implicit conversion shortens 64-bit value into a 32-bit value
+strscan.c:431: warning: implicit conversion shortens 64-bit value into a 32-bit value
+strscan.c: In function ‘adjust_registers_to_matched’:
+strscan.c:658: warning: implicit conversion shortens 64-bit value into a 32-bit value
+bytecode.re: In function ‘sycklex_bytecode_utf8’:
+bytecode.re:312: warning: implicit conversion shortens 64-bit value into a 32-bit value
+bytecode.re:442: warning: implicit conversion shortens 64-bit value into a 32-bit value
+emitter.c: In function ‘syck_emit_tag’:
+emitter.c:453: warning: implicit conversion shortens 64-bit value into a 32-bit value
+emitter.c: In function ‘syck_emit_scalar’:
+emitter.c:665: warning: implicit conversion shortens 64-bit value into a 32-bit value
+implicit.re: In function ‘try_tag_implicit’:
+implicit.re:39: warning: implicit conversion shortens 64-bit value into a 32-bit value
+implicit.re: In function ‘syck_type_id_to_uri’:
+implicit.re:202: warning: implicit conversion shortens 64-bit value into a 32-bit value
+implicit.re:176: warning: implicit conversion shortens 64-bit value into a 32-bit value
+implicit.re:185: warning: implicit conversion shortens 64-bit value into a 32-bit value
+implicit.re:196: warning: implicit conversion shortens 64-bit value into a 32-bit value
+rubyext.c: In function ‘mktime_do’:
+rubyext.c:278: warning: comparison between signed and unsigned
+syck.c: In function ‘syck_add_sym’:
+syck.c:189: warning: implicit conversion shortens 64-bit value into a 32-bit value
+token.re: In function ‘sycklex_yaml_utf8’:
+token.re:366: warning: implicit conversion shortens 64-bit value into a 32-bit value
+token.re:370: warning: implicit conversion shortens 64-bit value into a 32-bit value
+token.re:394: warning: implicit conversion shortens 64-bit value into a 32-bit value
+token.re:441: warning: implicit conversion shortens 64-bit value into a 32-bit value
+token.re:446: warning: implicit conversion shortens 64-bit value into a 32-bit value
+token.re:450: warning: implicit conversion shortens 64-bit value into a 32-bit value
+token.re:543: warning: implicit conversion shortens 64-bit value into a 32-bit value
+token.re:627: warning: implicit conversion shortens 64-bit value into a 32-bit value
+token.re:591: warning: implicit conversion shortens 64-bit value into a 32-bit value
+token.re:602: warning: implicit conversion shortens 64-bit value into a 32-bit value
+token.re:580: warning: implicit conversion shortens 64-bit value into a 32-bit value
+token.re:648: warning: implicit conversion shortens 64-bit value into a 32-bit value
+token.re:737: warning: implicit conversion shortens 64-bit value into a 32-bit value
+token.re:944: warning: implicit conversion shortens 64-bit value into a 32-bit value
+token.re:959: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c: In function ‘call_original_exit’:
+tcltklib.c:1033: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c: In function ‘_timer_for_tcl’:
+tcltklib.c:1180: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c: In function ‘set_eventloop_tick’:
+tcltklib.c:1262: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c: In function ‘eventloop_sleep’:
+tcltklib.c:1617: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c: In function ‘lib_eventloop_core’:
+tcltklib.c:1748: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:1753: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c: In function ‘lib_eventloop_launcher’:
+tcltklib.c:2254: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c: In function ‘ip_set_exc_message’:
+tcltklib.c:2641: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:2674: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c: In function ‘tcl_protect_core’:
+tcltklib.c:2730: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:2829: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:2882: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c: In function ‘ip_ruby_eval’:
+tcltklib.c:2975: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c: In function ‘ip_ruby_cmd_core’:
+tcltklib.c:3014: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c: In function ‘ip_ruby_cmd_receiver_get’:
+tcltklib.c:3103: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c: In function ‘ip_ruby_cmd’:
+tcltklib.c:3163: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c: In function ‘ip_rbVwaitObjCmd’:
+tcltklib.c:3806: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:3825: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:3862: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:3910: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c: In function ‘ip_rbTkWaitObjCmd’:
+tcltklib.c:4047: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:4069: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:4112: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:4127: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:4154: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:4196: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:4265: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:4282: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:4298: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c: In function ‘ip_rb_threadVwaitObjCmd’:
+tcltklib.c:4496: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:4522: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:4577: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c: In function ‘ip_rb_threadTkWaitObjCmd’:
+tcltklib.c:4663: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:4686: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:4730: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:4753: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:4801: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:4819: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:4888: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:4940: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c: In function ‘delete_slaves’:
+tcltklib.c:5091: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c: In function ‘ip_finalize’:
+tcltklib.c:5249: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c: In function ‘ip_free’:
+tcltklib.c:5365: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c: In function ‘ip_rbNamespaceObjCmd’:
+tcltklib.c:5588: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c: In function ‘ip_CallWhenDeleted’:
+tcltklib.c:5662: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c: In function ‘ip_create_slave_core’:
+tcltklib.c:5923: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c: In function ‘ip_delete’:
+tcltklib.c:6294: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c: In function ‘get_obj_from_str’:
+tcltklib.c:6438: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:6441: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:6446: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:6450: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:6453: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c: In function ‘tk_funcall’:
+tcltklib.c:6653: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:6659: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c: In function ‘ip_eval_real’:
+tcltklib.c:6830: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c: In function ‘ip_eval’:
+tcltklib.c:7116: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:7151: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:7163: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:7183: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c: In function ‘lib_restart_core’:
+tcltklib.c:7361: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c: In function ‘lib_toUTF8_core’:
+tcltklib.c:7483: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:7572: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c: In function ‘lib_fromUTF8_core’:
+tcltklib.c:7659: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:7720: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:7763: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c: In function ‘lib_UTF_backslash_core’:
+tcltklib.c:7848: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:7852: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:7860: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c: In function ‘invoke_tcl_proc’:
+tcltklib.c:7997: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c: In function ‘ip_invoke_core’:
+tcltklib.c:8143: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:8167: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c: In function ‘alloc_invoke_arguments’:
+tcltklib.c:8350: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:8356: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c: In function ‘ip_invoke_with_position’:
+tcltklib.c:8641: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c: In function ‘ip_get_variable2_core’:
+tcltklib.c:8822: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c: In function ‘ip_set_variable2_core’:
+tcltklib.c:8955: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c: In function ‘lib_split_tklist_core’:
+tcltklib.c:9263: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c: In function ‘lib_merge_tklist’:
+tcltklib.c:9373: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:9379: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:9391: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:9408: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c: In function ‘lib_conv_listelement’:
+tcltklib.c:9465: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:9472: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c:9475: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tcltklib.c: In function ‘tcltklib_compile_info’:
+tcltklib.c:9539: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tkutil.c: In function ‘ary2list’:
+tkutil.c:364: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tkutil.c: In function ‘ary2list2’:
+tkutil.c:476: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tkutil.c: In function ‘assoc2kv’:
+tkutil.c:559: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tkutil.c: In function ‘assoc2kv_enc’:
+tkutil.c:607: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tkutil.c: In function ‘tk_conv_args’:
+tkutil.c:947: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tkutil.c: In function ‘tkstr_to_str’:
+tkutil.c:1085: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tkutil.c: In function ‘cbsubst_get_subst_key’:
+tkutil.c:1429: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tkutil.c:1445: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tkutil.c: In function ‘cbsubst_table_setup’:
+tkutil.c:1551: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tkutil.c:1582: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tkutil.c:1588: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tkutil.c:1619: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tkutil.c: In function ‘cbsubst_scan_args’:
+tkutil.c:1651: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tkutil.c:1652: warning: implicit conversion shortens 64-bit value into a 32-bit value
+tkutil.c:1659: warning: implicit conversion shortens 64-bit value into a 32-bit value
+zlib.c: In function ‘do_checksum’:
+zlib.c:314: warning: implicit conversion shortens 64-bit value into a 32-bit value
+zlib.c: In function ‘zstream_expand_buffer’:
+zlib.c:515: warning: implicit conversion shortens 64-bit value into a 32-bit value
+zlib.c: In function ‘zstream_shift_buffer’:
+zlib.c:608: warning: implicit conversion shortens 64-bit value into a 32-bit value
+zlib.c: In function ‘zstream_passthrough_input’:
+zlib.c:690: warning: implicit conversion shortens 64-bit value into a 32-bit value
+zlib.c: In function ‘zstream_run’:
+zlib.c:766: warning: implicit conversion shortens 64-bit value into a 32-bit value
+zlib.c: In function ‘zstream_sync’:
+zlib.c:825: warning: implicit conversion shortens 64-bit value into a 32-bit value
+zlib.c:829: warning: implicit conversion shortens 64-bit value into a 32-bit value
+zlib.c: In function ‘deflate_run’:
+zlib.c:1226: warning: implicit conversion shortens 64-bit value into a 32-bit value
+zlib.c: In function ‘do_deflate’:
+zlib.c:1285: warning: implicit conversion shortens 64-bit value into a 32-bit value
+zlib.c: In function ‘rb_deflate_set_dictionary’:
+zlib.c:1416: warning: implicit conversion shortens 64-bit value into a 32-bit value
+zlib.c: In function ‘inflate_run’:
+zlib.c:1476: warning: implicit conversion shortens 64-bit value into a 32-bit value
+zlib.c: In function ‘do_inflate’:
+zlib.c:1530: warning: implicit conversion shortens 64-bit value into a 32-bit value
+zlib.c: In function ‘rb_inflate_inflate’:
+zlib.c:1562: warning: implicit conversion shortens 64-bit value into a 32-bit value
+zlib.c: In function ‘rb_inflate_addstr’:
+zlib.c:1595: warning: implicit conversion shortens 64-bit value into a 32-bit value
+zlib.c: In function ‘rb_inflate_sync’:
+zlib.c:1623: warning: implicit conversion shortens 64-bit value into a 32-bit value
+zlib.c: In function ‘rb_inflate_set_dictionary’:
+zlib.c:1665: warning: implicit conversion shortens 64-bit value into a 32-bit value
+zlib.c: In function ‘gzfile_read_raw_ensure’:
+zlib.c:1905: warning: implicit conversion shortens 64-bit value into a 32-bit value
+zlib.c: In function ‘gzfile_read_raw_until_zero’:
+zlib.c:1925: warning: implicit conversion shortens 64-bit value into a 32-bit value
+zlib.c: In function ‘gzfile_make_header’:
+zlib.c:1992: warning: implicit conversion shortens 64-bit value into a 32-bit value
+zlib.c:1996: warning: implicit conversion shortens 64-bit value into a 32-bit value
+zlib.c: In function ‘gzfile_read_header’:
+zlib.c:2064: warning: implicit conversion shortens 64-bit value into a 32-bit value
+zlib.c:2067: warning: implicit conversion shortens 64-bit value into a 32-bit value
+zlib.c:2074: warning: implicit conversion shortens 64-bit value into a 32-bit value
+zlib.c:2081: warning: implicit conversion shortens 64-bit value into a 32-bit value
+zlib.c: In function ‘gzfile_read_more’:
+zlib.c:2144: warning: implicit conversion shortens 64-bit value into a 32-bit value
+zlib.c: In function ‘gzfile_calc_crc’:
+zlib.c:2155: warning: implicit conversion shortens 64-bit value into a 32-bit value
+zlib.c:2159: warning: implicit conversion shortens 64-bit value into a 32-bit value
+zlib.c: In function ‘gzfile_getc’:
+zlib.c:2301: warning: implicit conversion shortens 64-bit value into a 32-bit value
+zlib.c: In function ‘rb_gzwriter_write’:
+zlib.c:2910: warning: implicit conversion shortens 64-bit value into a 32-bit value
+zlib.c: In function ‘rb_gzreader_ungetc’:
+zlib.c:3245: warning: implicit conversion shortens 64-bit value into a 32-bit value
+zlib.c: In function ‘gzreader_gets’:
+zlib.c:3344: warning: implicit conversion shortens 64-bit value into a 32-bit value
+zlib.c:3370: warning: implicit conversion shortens 64-bit value into a 32-bit value
+No definition for iseq_inspect
+No definition for rb_iseq_disasm
+No definition for rb_iseq_disasm
+No definition for iseq_to_a
+No definition for iseq_eval
+No definition for iseq_s_load
+No definition for iseq_s_compile
+No definition for iseq_s_compile
+No definition for iseq_s_compile_file
+No definition for iseq_s_compile_option_get
+No definition for iseq_s_compile_option_set
+No definition for iseq_s_disasm
+No definition for iseq_s_disasm
+No definition for rb_f_require_relative
+No definition for rb_obj_hash
+No definition for rb_obj_methods
+No definition for rb_obj_protected_methods
+No definition for rb_obj_private_methods
+No definition for rb_obj_public_methods
+No definition for rb_mod_attr
+No definition for rb_struct_init_copy
+No definition for range_initialize_copy
+lib/irb/inspector.rb:36:36: Couldn't find INSPECTORS. Assuming it's a module
+No definition for BigDecimal_add2
+No definition for BigDecimal_sub2
+No definition for BigDecimal_mult2
+No definition for BigDecimal_div2
+No definition for BigDecimal_hash
+No definition for BigDecimal_uplus
+No definition for BigDecimal_neg
+No definition for BigDecimal_dup
+No definition for BigDecimal_dump
+No definition for BigDecimal_global_new
+No definition for fgdbm_setopt
+No definition for ossl_asn1_traverse
+No definition for ossl_asn1_decode
+No definition for ossl_asn1_decode_all
+No definition for ossl_asn1data_initialize
+No definition for ossl_asn1data_to_der
+No definition for ossl_asn1_initialize
+No definition for ossl_asn1prim_to_der
+No definition for ossl_asn1_initialize
+No definition for ossl_asn1cons_to_der
+No definition for ossl_asn1cons_each
+No definition for ossl_bn_copy
+No definition for ossl_bn_num_bytes
+No definition for ossl_bn_num_bits
+No definition for ossl_bn_add
+No definition for ossl_bn_sub
+No definition for ossl_bn_mul
+No definition for ossl_bn_sqr
+No definition for ossl_bn_mod
+No definition for ossl_bn_mod_add
+No definition for ossl_bn_mod_sub
+No definition for ossl_bn_mod_mul
+No definition for ossl_bn_mod_sqr
+No definition for ossl_bn_exp
+No definition for ossl_bn_mod_exp
+No definition for ossl_bn_gcd
+No definition for ossl_bn_cmp
+No definition for ossl_bn_ucmp
+No definition for ossl_bn_eql
+No definition for ossl_bn_is_zero
+No definition for ossl_bn_is_one
+No definition for ossl_bn_is_odd
+No definition for ossl_bn_s_rand
+No definition for ossl_bn_s_pseudo_rand
+No definition for ossl_bn_s_rand_range
+No definition for ossl_bn_s_pseudo_rand_range
+No definition for ossl_bn_set_bit
+No definition for ossl_bn_clear_bit
+No definition for ossl_bn_mask_bits
+No definition for ossl_bn_lshift
+No definition for ossl_bn_rshift
+No definition for ossl_bn_self_lshift
+No definition for ossl_bn_self_rshift
+No definition for ossl_bn_to_bn
+No definition for ossl_bn_coerce
+No definition for ossl_bn_mod_inverse
+No definition for ossl_config_s_parse
+No definition for ossl_config_initialize
+No definition for ossl_config_get_value
+No definition for ossl_config_get_value_old
+No definition for rb_f_notimplement
+No definition for ossl_config_add_value_m
+No definition for ossl_config_get_section_old
+No definition for ossl_config_set_section
+No definition for ossl_config_get_sections
+No definition for ossl_config_to_s
+No definition for ossl_config_each
+No definition for ossl_config_inspect
+Enclosing class/module 'cDigest' for class DigestError not known
+No definition for ossl_engine_s_load
+No definition for ossl_engine_s_cleanup
+No definition for ossl_engine_s_engines
+No definition for ossl_engine_s_by_id
+No definition for ossl_engine_get_id
+No definition for ossl_engine_get_name
+No definition for ossl_engine_finish
+No definition for rb_f_notimplement
+No definition for ossl_engine_get_cipher
+No definition for rb_f_notimplement
+No definition for ossl_engine_get_digest
+No definition for ossl_engine_load_privkey
+No definition for ossl_engine_load_pubkey
+No definition for ossl_engine_set_default
+No definition for ossl_engine_ctrl_cmd
+No definition for ossl_engine_get_cmds
+No definition for ossl_engine_inspect
+No definition for ossl_spki_initialize
+No definition for ossl_spki_to_der
+No definition for ossl_spki_to_pem
+No definition for ossl_spki_print
+No definition for ossl_spki_get_public_key
+No definition for ossl_spki_set_public_key
+No definition for ossl_spki_sign
+No definition for ossl_spki_get_challenge
+No definition for ossl_spki_set_challenge
+No definition for ossl_ocspreq_initialize
+No definition for ossl_ocspreq_add_nonce
+No definition for ossl_ocspreq_add_certid
+No definition for ossl_ocspreq_get_certid
+No definition for ossl_ocspreq_sign
+No definition for ossl_ocspreq_verify
+No definition for ossl_ocspreq_to_der
+No definition for ossl_ocspres_initialize
+No definition for ossl_ocspres_status
+No definition for ossl_ocspres_status_string
+No definition for ossl_ocspres_get_basic
+No definition for ossl_ocspres_to_der
+No definition for ossl_ocspbres_initialize
+No definition for ossl_ocspbres_copy_nonce
+No definition for ossl_ocspbres_add_nonce
+No definition for ossl_ocspbres_add_status
+No definition for ossl_ocspbres_get_status
+No definition for ossl_ocspbres_sign
+No definition for ossl_ocspbres_verify
+No definition for ossl_ocspcid_initialize
+No definition for ossl_ocspcid_cmp
+No definition for ossl_ocspcid_cmp_issuer
+No definition for ossl_ocspcid_get_serial
+No definition for ossl_pkcs7_set_detached
+No definition for ossl_pkcs7_get_detached
+No definition for ossl_pkcs7_detached_p
+No definition for ossl_pkcs7_set_cipher
+No definition for ossl_pkcs7_add_signer
+No definition for ossl_pkcs7_get_signer
+No definition for ossl_pkcs7_add_recipient
+No definition for ossl_pkcs7_get_recipient
+No definition for ossl_pkcs7_add_certificate
+No definition for ossl_pkcs7_set_certificates
+No definition for ossl_pkcs7_get_certificates
+No definition for ossl_pkcs7_add_crl
+No definition for ossl_pkcs7_set_crls
+No definition for ossl_pkcs7_get_crls
+No definition for ossl_pkcs7_add_data
+No definition for ossl_pkcs7_verify
+No definition for ossl_pkcs7_decrypt
+No definition for ossl_pkcs7_to_pem
+No definition for ossl_pkcs7_to_der
+No definition for ossl_pkcs7si_initialize
+No definition for ossl_pkcs7si_get_issuer
+No definition for ossl_pkcs7si_get_serial
+No definition for ossl_pkcs7si_get_signed_time
+No definition for ossl_pkcs7ri_initialize
+No definition for ossl_pkcs7ri_get_issuer
+No definition for ossl_pkcs7ri_get_serial
+No definition for ossl_pkcs7ri_get_enc_key
+No definition for ossl_pkcs12_to_der
+No definition for ossl_pkey_initialize
+No definition for ossl_pkey_sign
+No definition for ossl_pkey_verify
+No definition for ossl_ec_group_set_curve_name
+No definition for ossl_rsa_blinding_on
+No definition for ossl_rsa_blinding_off
+No definition for ossl_sslctx_set_ssl_version
+No definition for ossl_ssl_get_verify_result
+No definition for ossl_ssl_session_set_time
+No definition for ossl_ssl_session_set_timeout
+No definition for ossl_x509_inspect
+No definition for ossl_x509crl_initialize
+No definition for ossl_x509crl_get_version
+No definition for ossl_x509crl_set_version
+No definition for ossl_x509crl_get_signature_algorithm
+No definition for ossl_x509crl_get_issuer
+No definition for ossl_x509crl_set_issuer
+No definition for ossl_x509crl_get_last_update
+No definition for ossl_x509crl_set_last_update
+No definition for ossl_x509crl_get_next_update
+No definition for ossl_x509crl_set_next_update
+No definition for ossl_x509crl_get_revoked
+No definition for ossl_x509crl_set_revoked
+No definition for ossl_x509crl_add_revoked
+No definition for ossl_x509crl_sign
+No definition for ossl_x509crl_verify
+No definition for ossl_x509crl_to_der
+No definition for ossl_x509crl_to_pem
+No definition for ossl_x509crl_to_text
+No definition for ossl_x509crl_add_extension
+No definition for ossl_x509extfactory_initialize
+No definition for ossl_x509extfactory_set_issuer_cert
+No definition for ossl_x509extfactory_set_subject_cert
+No definition for ossl_x509extfactory_set_subject_req
+No definition for ossl_x509extfactory_set_crl
+No definition for ossl_x509extfactory_set_config
+No definition for ossl_x509ext_initialize
+No definition for ossl_x509ext_set_oid
+No definition for ossl_x509ext_set_value
+No definition for ossl_x509ext_set_critical
+No definition for ossl_x509ext_get_oid
+No definition for ossl_x509ext_get_value
+No definition for ossl_x509ext_get_critical
+No definition for ossl_x509ext_to_der
+No definition for ossl_x509name_cmp
+No definition for ossl_x509name_eql
+No definition for ossl_x509req_initialize
+No definition for ossl_x509req_to_pem
+No definition for ossl_x509req_to_der
+No definition for ossl_x509req_to_text
+No definition for ossl_x509req_get_version
+No definition for ossl_x509req_set_version
+No definition for ossl_x509req_get_subject
+No definition for ossl_x509req_set_subject
+No definition for ossl_x509req_get_signature_algorithm
+No definition for ossl_x509req_get_public_key
+No definition for ossl_x509req_set_public_key
+No definition for ossl_x509req_sign
+No definition for ossl_x509req_get_attributes
+No definition for ossl_x509req_set_attributes
+No definition for ossl_x509req_add_attribute
+No definition for ossl_x509revoked_initialize
+No definition for ossl_x509revoked_get_serial
+No definition for ossl_x509revoked_set_serial
+No definition for ossl_x509revoked_get_time
+No definition for ossl_x509revoked_set_time
+No definition for ossl_x509revoked_add_extension
+No definition for ossl_x509store_set_flags
+No definition for ossl_x509store_set_purpose
+No definition for ossl_x509store_set_trust
+No definition for ossl_x509store_set_time
+No definition for ossl_x509store_add_path
+No definition for ossl_x509store_add_file
+No definition for ossl_x509store_set_default_paths
+No definition for ossl_x509store_add_cert
+No definition for ossl_x509store_add_crl
+No definition for ossl_x509store_verify
+No definition for echild_status
+No definition for socks_init
+No definition for socks_s_close
+No definition for rb_io_addstr
+No definition for rb_io_print
+No definition for rb_io_printf
+No definition for rb_io_puts
+
+Generating RI...

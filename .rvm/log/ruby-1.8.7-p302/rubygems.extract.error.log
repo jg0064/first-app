@@ -1,0 +1,1 @@
+[2010-09-18 14:05:44] gunzip < "/Users/jesseguzman/.rvm/archives/rubygems-1.3.7.tgz" | tar xf - -C /Users/jesseguzman/.rvm/src

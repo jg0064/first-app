@@ -1,0 +1,20 @@
+export PATH="/Users/jesseguzman/.rvm/gems/ruby-1.8.7-p302@rails2tutorial/bin:/Users/jesseguzman/.rvm/gems/ruby-1.8.7-p302@global/bin:/Users/jesseguzman/.rvm/rubies/ruby-1.8.7-p302/bin:/Users/jesseguzman/.rvm/bin:$PATH"
+rvm_path='/Users/jesseguzman/.rvm'
+export rvm_path
+RUBY_VERSION='ruby-1.8.7-p302'
+export RUBY_VERSION
+GEM_HOME='/Users/jesseguzman/.rvm/gems/ruby-1.8.7-p302@rails2tutorial'
+export GEM_HOME
+GEM_PATH='/Users/jesseguzman/.rvm/gems/ruby-1.8.7-p302@rails2tutorial:/Users/jesseguzman/.rvm/gems/ruby-1.8.7-p302@global'
+export GEM_PATH
+BUNDLE_PATH='/Users/jesseguzman/.rvm/gems/ruby-1.8.7-p302@rails2tutorial'
+export BUNDLE_PATH
+MY_RUBY_HOME='/Users/jesseguzman/.rvm/rubies/ruby-1.8.7-p302'
+export MY_RUBY_HOME
+IRBRC='/Users/jesseguzman/.rvm/rubies/ruby-1.8.7-p302/.irbrc'
+export IRBRC
+rvm_ruby_string='ruby-1.8.7-p302'
+export rvm_ruby_string
+rvm_gemset_name='rails2tutorial'
+export rvm_gemset_name
+unset MAGLEV_HOME

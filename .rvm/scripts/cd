@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+
+# Source a .rvmrc file in a directory after changing to it, if it exists.
+# To disable this fature, set export rvm_project_rvmrc=0 in $HOME/.rvmrc
+if [[ ${rvm_project_rvmrc:-1} -ne 0 ]] ; then
+  if [[ -n "${ZSH_VERSION:-""}" ]] ; then
+    autoload is-at-least
+    if is-at-least 4.3.4 >/dev/null 2>&1; then
+      # On zsh, use chpwd_functions
+      chpwd_functions=( "${chpwd_functions[@]}" __rvm_project_rvmrc )
+    else
+      cd() {
+        builtin cd "$@"
+        local result=$?
+        __rvm_project_rvmrc
+
+        rvm_hook="after_cd" ; source "$rvm_path/scripts/hook"
+
+        return $result
+      }
+    fi
+  else
+    cd() {
+      builtin cd "$@"
+      local result=$?
+      __rvm_project_rvmrc
+
+      rvm_hook="after_cd" ; source "$rvm_path/scripts/hook"
+
+      return $result
+    }
+  fi
+fi

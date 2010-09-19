@@ -1,0 +1,20 @@
+export PATH="/Users/jesseguzman/.rvm/gems/ruby-1.9.2-p0@rails3tutorial/bin:/Users/jesseguzman/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/jesseguzman/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/jesseguzman/.rvm/bin:$PATH"
+rvm_path='/Users/jesseguzman/.rvm'
+export rvm_path
+RUBY_VERSION='ruby-1.9.2-p0'
+export RUBY_VERSION
+GEM_HOME='/Users/jesseguzman/.rvm/gems/ruby-1.9.2-p0@rails3tutorial'
+export GEM_HOME
+GEM_PATH='/Users/jesseguzman/.rvm/gems/ruby-1.9.2-p0@rails3tutorial:/Users/jesseguzman/.rvm/gems/ruby-1.9.2-p0@global'
+export GEM_PATH
+BUNDLE_PATH='/Users/jesseguzman/.rvm/gems/ruby-1.9.2-p0@rails3tutorial'
+export BUNDLE_PATH
+MY_RUBY_HOME='/Users/jesseguzman/.rvm/rubies/ruby-1.9.2-p0'
+export MY_RUBY_HOME
+IRBRC='/Users/jesseguzman/.rvm/rubies/ruby-1.9.2-p0/.irbrc'
+export IRBRC
+rvm_ruby_string='ruby-1.9.2-p0'
+export rvm_ruby_string
+rvm_gemset_name='rails3tutorial'
+export rvm_gemset_name
+unset MAGLEV_HOME

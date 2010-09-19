@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+ENV['GEM_HOME']=ENV['GEM_HOME'] || '/Users/jesseguzman/.rvm/gems/ruby-1.9.2-p0'
+ENV['GEM_PATH']=ENV['GEM_PATH'] || '/Users/jesseguzman/.rvm/gems/ruby-1.9.2-p0:/Users/jesseguzman/.rvm/gems/ruby-1.9.2-p0@global'
+ENV['PATH']='/Users/jesseguzman/.rvm/gems/ruby-1.9.2-p0/bin:/Users/jesseguzman/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/jesseguzman/.rvm/rubies/ruby-1.9.2-p0/bin:' + ENV['PATH']
+ENV['BUNDLE_PATH']=ENV['BUNDLE_PATH'] || '/Users/jesseguzman/.rvm/gems/ruby-1.9.2-p0'
+
+
+require 'rdoc/ri/driver'
+
+RDoc::RI::Driver.run ARGV

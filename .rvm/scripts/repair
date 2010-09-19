@@ -1,0 +1,123 @@
+#!/usr/bin/env bash
+
+source "$rvm_path/scripts/base"
+
+usage() {
+  echo "Usage: rvm repair {wrappers,symlinks,environments,archives,all}" >&2
+  return 1
+}
+
+repair_wrappers() {
+  __rvm_regenerate_wrappers
+}
+
+# Removes stale symlinks in $rvm_bin_path, likely
+# related to wrappers.
+repair_symlinks() {
+  (
+    builtin cd "${rvm_bin_path:-"$rvm_path/bin"}"
+
+    for executable_name in $(\find \. -type l); do
+
+      [[ -e "$executable_name" || "$(readlink "$executable_name")" != "$rvm_path/wrappers/"* ]] && continue
+
+      if [[ -f "$executable_name" ]]  ; then
+
+        "$rvm_path/scripts/log" "info" \
+          "Removing stale symlink from $(basename "$executable_name")"
+
+        \rm -f "$executable_name"
+
+      fi
+    done
+  )
+}
+
+# Regenerates each symlink file.
+repair_environments() {
+  local environment_name environments
+
+  environments=($(cd "$rvm_path/environments" ; find . -maxdepth 1 -mindepth 1 -type f))
+
+  for environment_name in "${environments[@]//.\/}" ; do
+
+    [[ -L "$rvm_path/environments/$environment_name" ]] && continue
+
+    "$rvm_path/scripts/log" "info" \
+      "Regenerating environment file for '$environment_name'"
+
+    [[ -f "$rvm_path/environments/$environment_name" ]] && \rm -f "$rvm_path/environments/$environment_name"
+
+    (
+    source "$rvm_path/scripts/base"
+
+    __rvm_become "$environment_name"
+
+    __rvm_ensure_has_environment_files
+    )
+
+  done
+}
+
+# Removes archives that have incorrect md5 sums.
+repair_archives() {
+
+  local archive_file archives stored_md5sum
+
+  archives=($(cd "${rvm_archives_path:-"$rvm_path/archives"}" ; find . -maxdepth 1 -mindepth 1 -type f))
+
+  for archive_file in "${archives[@]//.\/}" ; do
+
+    [[ -f "${rvm_archives_path:-"$rvm_path/archives"}/$archive_file" ]] || continue
+
+    stored_md5sum="$($rvm_path/scripts/db "$rvm_path/config/md5" "$archive_file" | head -n1)"
+
+    if [[ -n "$stored_md5sum" ]] ; then
+
+      if ! "$rvm_path/scripts/md5" "${rvm_archives_path:-"$rvm_path/archives"}/$archive_file" "$stored_md5sum" ; then
+
+        "$rvm_path/scripts/log" "info" "Removing archive for '$archive_file' - Incorrect md5 checksum."
+
+        rm -rf "${rvm_archives_path:-"$rvm_path/archives"}/$archive_file"
+      fi
+    fi
+  done
+
+  return 0
+}
+
+repair_all() {
+
+  repair_symlinks
+
+  repair_archives
+
+  repair_environments
+
+  repair_wrappers
+
+  "$rvm_path/scripts/log" "info" \
+    "symlinks, archives and environments have been repaired."
+
+  return 0
+}
+
+args=($*)
+action="${args[0]}"
+args="$(echo ${args[@]:1}) " # Strip trailing / leading / extra spacing.
+
+if [[ -z "$action" ]]; then
+  usage
+  exit $?
+fi
+
+case "$action" in
+  all)          repair_all          ;;
+  symlinks)     repair_symlinks     ;;
+  environments) repair_environments ;;
+  archives)     repair_archives     ;;
+  wrappers)     repair_wrappers     ;;
+  *)            usage               ;;
+esac
+
+exit $?

@@ -1,0 +1,18 @@
+Sat, 18 Sep 2010 14:11:16 -0400
+lib/action_mailer/adv_attr_accessor.rb	Sat, 18 Sep 2010 14:10:20 -0400
+lib/action_mailer/base.rb	Sat, 18 Sep 2010 14:10:20 -0400
+lib/action_mailer/collector.rb	Sat, 18 Sep 2010 14:10:20 -0400
+lib/action_mailer/delivery_methods.rb	Sat, 18 Sep 2010 14:10:20 -0400
+lib/action_mailer/deprecated_api.rb	Sat, 18 Sep 2010 14:10:20 -0400
+lib/action_mailer/log_subscriber.rb	Sat, 18 Sep 2010 14:10:20 -0400
+lib/action_mailer/mail_helper.rb	Sat, 18 Sep 2010 14:10:20 -0400
+lib/action_mailer/old_api.rb	Sat, 18 Sep 2010 14:10:20 -0400
+lib/action_mailer/railtie.rb	Sat, 18 Sep 2010 14:10:20 -0400
+lib/action_mailer/test_case.rb	Sat, 18 Sep 2010 14:10:20 -0400
+lib/action_mailer/test_helper.rb	Sat, 18 Sep 2010 14:10:20 -0400
+lib/action_mailer/tmail_compat.rb	Sat, 18 Sep 2010 14:10:20 -0400
+lib/action_mailer/version.rb	Sat, 18 Sep 2010 14:10:20 -0400
+lib/action_mailer.rb	Sat, 18 Sep 2010 14:10:20 -0400
+lib/rails/generators/mailer/mailer_generator.rb	Sat, 18 Sep 2010 14:10:20 -0400
+lib/rails/generators/mailer/templates/mailer.rb	Sat, 18 Sep 2010 14:10:20 -0400
+lib/rails/generators/mailer/USAGE	Sat, 18 Sep 2010 14:10:20 -0400

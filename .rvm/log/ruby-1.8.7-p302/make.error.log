@@ -1,0 +1,99 @@
+[2010-09-18 14:04:09] make eval.c: In function ‘rb_eval_string_wrap’:
+eval.c:1744: warning: assignment discards qualifiers from pointer target type
+eval.c: In function ‘rb_eval_cmd’:
+eval.c:1885: warning: assignment discards qualifiers from pointer target type
+eval.c: In function ‘call_trace_func’:
+eval.c:2736: warning: assignment discards qualifiers from pointer target type
+eval.c: In function ‘rb_raise_jump’:
+eval.c:4770: warning: assignment discards qualifiers from pointer target type
+eval.c: In function ‘method_missing’:
+eval.c:5736: warning: assignment discards qualifiers from pointer target type
+eval.c: In function ‘rb_call0’:
+eval.c:5894: warning: assignment discards qualifiers from pointer target type
+eval.c: In function ‘rb_f_eval’:
+eval.c:6696: warning: assignment discards qualifiers from pointer target type
+eval.c: In function ‘exec_under’:
+eval.c:6720: warning: assignment discards qualifiers from pointer target type
+eval.c: In function ‘rb_load’:
+eval.c:7036: warning: assignment discards qualifiers from pointer target type
+eval.c: In function ‘call_end_proc’:
+eval.c:8071: warning: assignment discards qualifiers from pointer target type
+eval.c: In function ‘rb_f_END’:
+eval.c:8084: warning: assignment discards qualifiers from pointer target type
+eval.c: In function ‘mproc’:
+eval.c:9860: warning: assignment discards qualifiers from pointer target type
+regex.c: In function ‘ruby_re_compile_pattern’:
+regex.c:1367: warning: format ‘%d’ expects type ‘int’, but argument 7 has type ‘long int’
+regex.c:2031: warning: format ‘%d’ expects type ‘int’, but argument 6 has type ‘long int’
+digest.c: In function ‘rb_digest_instance_inspect’:
+digest.c:280: warning: assignment discards qualifiers from pointer target type
+ptr.c: In function ‘rb_dlptr_inspect’:
+ptr.c:461: warning: format ‘%lx’ expects type ‘long unsigned int’, but argument 7 has type ‘struct ptr_data *’
+ptr.c:461: warning: format ‘%lx’ expects type ‘long unsigned int’, but argument 8 has type ‘void *’
+  void
+  char
+  short
+  int
+  long
+  float
+  double
+sym.c: In function ‘rb_dlsym_inspect’:
+sym.c:270: warning: format ‘%lx’ expects type ‘long unsigned int’, but argument 6 has type ‘struct sym_data *’
+sym.c:270: warning: format ‘%lx’ expects type ‘long unsigned int’, but argument 7 has type ‘void *’
+ossl_asn1.c: In function ‘decode_bool’:
+ossl_asn1.c:313: warning: passing argument 2 of ‘d2i_ASN1_BOOLEAN’ from incompatible pointer type
+ossl_asn1.c: In function ‘decode_int’:
+ossl_asn1.c:328: warning: passing argument 2 of ‘d2i_ASN1_INTEGER’ from incompatible pointer type
+ossl_asn1.c: In function ‘decode_enum’:
+ossl_asn1.c:368: warning: passing argument 2 of ‘d2i_ASN1_ENUMERATED’ from incompatible pointer type
+ossl_asn1.c: In function ‘decode_null’:
+ossl_asn1.c:385: warning: passing argument 2 of ‘d2i_ASN1_NULL’ from incompatible pointer type
+ossl_asn1.c: In function ‘decode_obj’:
+ossl_asn1.c:402: warning: passing argument 2 of ‘d2i_ASN1_OBJECT’ from incompatible pointer type
+ossl_asn1.c: In function ‘decode_time’:
+ossl_asn1.c:430: warning: passing argument 2 of ‘d2i_ASN1_TIME’ from incompatible pointer type
+ossl_asn1.c: In function ‘ossl_asn1_decode0’:
+ossl_asn1.c:722: warning: passing argument 1 of ‘ASN1_get_object’ from incompatible pointer type
+ossl_cipher.c: In function ‘ossl_cipher_init’:
+ossl_cipher.c:191: warning: initialization discards qualifiers from pointer target type
+ossl_cipher.c: In function ‘ossl_cipher_update_deprecated’:
+ossl_cipher.c:314: warning: assignment discards qualifiers from pointer target type
+ossl_config.c: In function ‘ossl_config_inspect’:
+ossl_config.c:452: warning: initialization discards qualifiers from pointer target type
+ossl_engine.c: In function ‘ossl_engine_inspect’:
+ossl_engine.c:347: warning: initialization discards qualifiers from pointer target type
+ossl_ns_spki.c: In function ‘ossl_spki_initialize’:
+ossl_ns_spki.c:67: warning: passing argument 2 of ‘d2i_NETSCAPE_SPKI’ from incompatible pointer type
+ossl_ocsp.c: In function ‘ossl_ocspreq_initialize’:
+ossl_ocsp.c:114: warning: passing argument 2 of ‘d2i_OCSP_REQUEST’ from incompatible pointer type
+ossl_ocsp.c: In function ‘ossl_ocspres_initialize’:
+ossl_ocsp.c:321: warning: passing argument 2 of ‘d2i_OCSP_RESPONSE’ from incompatible pointer type
+ossl_pkcs7.c: In function ‘ossl_pkcs7si_new’:
+ossl_pkcs7.c:89: warning: passing argument 2 of ‘ASN1_dup’ from incompatible pointer type
+ossl_pkcs7.c: In function ‘DupPKCS7SignerPtr’:
+ossl_pkcs7.c:102: warning: passing argument 2 of ‘ASN1_dup’ from incompatible pointer type
+ossl_pkcs7.c: In function ‘ossl_pkcs7ri_new’:
+ossl_pkcs7.c:115: warning: passing argument 2 of ‘ASN1_dup’ from incompatible pointer type
+ossl_pkcs7.c: In function ‘DupPKCS7RecipientPtr’:
+ossl_pkcs7.c:128: warning: passing argument 2 of ‘ASN1_dup’ from incompatible pointer type
+ossl_pkey_dsa.c: In function ‘ossl_dsa_initialize’:
+ossl_pkey_dsa.c:165: warning: passing argument 1 of ‘PEM_ASN1_read_bio’ from incompatible pointer type
+ossl_pkey_dsa.c:165: warning: passing argument 4 of ‘PEM_ASN1_read_bio’ from incompatible pointer type
+ossl_pkey_dsa.c: In function ‘ossl_dsa_to_public_key’:
+ossl_pkey_dsa.c:370: warning: passing argument 2 of ‘ASN1_dup’ from incompatible pointer type
+ossl_x509attr.c: In function ‘ossl_x509attr_initialize’:
+ossl_x509attr.c:104: warning: passing argument 2 of ‘d2i_X509_ATTRIBUTE’ from incompatible pointer type
+ossl_x509cert.c: In function ‘ossl_x509_inspect’:
+ossl_x509cert.c:693: warning: initialization discards qualifiers from pointer target type
+ossl_x509ext.c: In function ‘ossl_x509ext_initialize’:
+ossl_x509ext.c:286: warning: passing argument 2 of ‘d2i_X509_EXTENSION’ from incompatible pointer type
+ossl_x509name.c: In function ‘ossl_x509name_initialize’:
+ossl_x509name.c:143: warning: passing argument 2 of ‘d2i_X509_NAME’ from incompatible pointer type
+ossl_x509revoked.c: In function ‘ossl_x509revoked_new’:
+ossl_x509revoked.c:48: warning: passing argument 2 of ‘ASN1_dup’ from incompatible pointer type
+ossl_x509revoked.c: In function ‘DupX509RevokedPtr’:
+ossl_x509revoked.c:64: warning: passing argument 2 of ‘ASN1_dup’ from incompatible pointer type
+readline.c: In function ‘rb_remove_history’:
+readline.c:608: warning: passing argument 1 of ‘free’ discards qualifiers from pointer target type
+syck.c: In function ‘syck_default_error_handler’:
+syck.c:502: warning: format ‘%d’ expects type ‘int’, but argument 3 has type ‘long int’

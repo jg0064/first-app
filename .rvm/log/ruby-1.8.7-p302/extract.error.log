@@ -1,0 +1,1 @@
+[2010-09-18 14:03:46] bunzip2 < '/Users/jesseguzman/.rvm/archives/ruby-1.8.7-p302.tar.bz2' | tar xf - -C /tmp/rvm_src_17793

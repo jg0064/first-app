@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+if [[ -s "$HOME/.rvm/environments/ruby-1.9.2-p0@rails3tutorial" ]] ; then
+  \. "$HOME/.rvm/environments/ruby-1.9.2-p0@rails3tutorial"
+  exec testrb "$@"
+else
+  echo "ERROR: Missing RVM environment file: '$HOME/.rvm/environments/ruby-1.9.2-p0@rails3tutorial'"
+  exit 1
+fi
+  

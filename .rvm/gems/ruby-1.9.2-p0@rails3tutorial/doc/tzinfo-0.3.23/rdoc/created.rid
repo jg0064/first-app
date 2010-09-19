@@ -1,0 +1,25 @@
+Sat, 18 Sep 2010 14:11:51 -0400
+lib/tzinfo/country.rb	Sat, 18 Sep 2010 14:10:16 -0400
+lib/tzinfo/country_index_definition.rb	Sat, 18 Sep 2010 14:10:16 -0400
+lib/tzinfo/country_info.rb	Sat, 18 Sep 2010 14:10:16 -0400
+lib/tzinfo/country_timezone.rb	Sat, 18 Sep 2010 14:10:16 -0400
+lib/tzinfo/data_timezone.rb	Sat, 18 Sep 2010 14:10:16 -0400
+lib/tzinfo/data_timezone_info.rb	Sat, 18 Sep 2010 14:10:16 -0400
+lib/tzinfo/info_timezone.rb	Sat, 18 Sep 2010 14:10:16 -0400
+lib/tzinfo/linked_timezone.rb	Sat, 18 Sep 2010 14:10:16 -0400
+lib/tzinfo/linked_timezone_info.rb	Sat, 18 Sep 2010 14:10:16 -0400
+lib/tzinfo/offset_rationals.rb	Sat, 18 Sep 2010 14:10:16 -0400
+lib/tzinfo/ruby_core_support.rb	Sat, 18 Sep 2010 14:10:16 -0400
+lib/tzinfo/time_or_datetime.rb	Sat, 18 Sep 2010 14:10:16 -0400
+lib/tzinfo/timezone.rb	Sat, 18 Sep 2010 14:10:16 -0400
+lib/tzinfo/timezone_definition.rb	Sat, 18 Sep 2010 14:10:16 -0400
+lib/tzinfo/timezone_index_definition.rb	Sat, 18 Sep 2010 14:10:16 -0400
+lib/tzinfo/timezone_info.rb	Sat, 18 Sep 2010 14:10:16 -0400
+lib/tzinfo/timezone_offset_info.rb	Sat, 18 Sep 2010 14:10:16 -0400
+lib/tzinfo/timezone_period.rb	Sat, 18 Sep 2010 14:10:16 -0400
+lib/tzinfo/timezone_proxy.rb	Sat, 18 Sep 2010 14:10:16 -0400
+lib/tzinfo/timezone_transition_info.rb	Sat, 18 Sep 2010 14:10:16 -0400
+lib/tzinfo/tzdataparser.rb	Sat, 18 Sep 2010 14:10:16 -0400
+lib/tzinfo.rb	Sat, 18 Sep 2010 14:10:16 -0400
+README	Sat, 18 Sep 2010 14:10:15 -0400
+CHANGES	Sat, 18 Sep 2010 14:10:15 -0400

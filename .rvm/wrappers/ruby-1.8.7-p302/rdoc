@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+if [[ -s "$HOME/.rvm/environments/ruby-1.8.7-p302" ]] ; then
+  \. "$HOME/.rvm/environments/ruby-1.8.7-p302"
+  exec rdoc "$@"
+else
+  echo "ERROR: Missing RVM environment file: '$HOME/.rvm/environments/ruby-1.8.7-p302'"
+  exit 1
+fi
+  

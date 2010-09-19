@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+ENV['GEM_HOME']=ENV['GEM_HOME'] || '/Users/jesseguzman/.rvm/gems/ruby-1.8.7-p302'
+ENV['GEM_PATH']=ENV['GEM_PATH'] || '/Users/jesseguzman/.rvm/gems/ruby-1.8.7-p302:/Users/jesseguzman/.rvm/gems/ruby-1.8.7-p302@global'
+ENV['PATH']='/Users/jesseguzman/.rvm/gems/ruby-1.8.7-p302/bin:/Users/jesseguzman/.rvm/gems/ruby-1.8.7-p302@global/bin:/Users/jesseguzman/.rvm/rubies/ruby-1.8.7-p302/bin:' + ENV['PATH']
+ENV['BUNDLE_PATH']=ENV['BUNDLE_PATH'] || '/Users/jesseguzman/.rvm/gems/ruby-1.8.7-p302'
+
+require 'test/unit'
+(r = Test::Unit::AutoRunner.new(true)).process_args(ARGV) or
+  abort r.options.banner + " tests..."
+exit r.run

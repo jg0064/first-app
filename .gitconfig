@@ -1,0 +1,7 @@
+[user]
+	name = Jesse Guzman
+	email = jg0064@gmail.com
+[core]
+	editor = mate -w
+[alias]
+	co = checkout
