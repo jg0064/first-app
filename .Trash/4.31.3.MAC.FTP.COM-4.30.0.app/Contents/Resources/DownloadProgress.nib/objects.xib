@@ -1,0 +1,55 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <string name="targetFramework">IBCarbonFramework</string>
+  <object name="rootObject" class="NSCustomObject" id="1">
+    <string name="customClass">NSApplication</string>
+  </object>
+  <array count="4" name="allObjects">
+    <object class="IBCarbonWindow" id="166">
+      <string name="windowRect">315 432 395 854 </string>
+      <string name="title">Download Progress</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="167">
+        <string name="bounds">0 0 80 422 </string>
+        <string name="viewFrame">0 0 422 80 </string>
+        <array count="2" name="subviews">
+          <object class="IBCarbonStaticText" id="180">
+            <string name="bounds">20 20 36 402 </string>
+            <string name="viewFrame">20 20 382 16 </string>
+            <string name="title">Preparing for update of FullTilt Poker:</string>
+          </object>
+          <object class="IBCarbonProgressBar" id="181">
+            <string name="bounds">43 31 62 403 </string>
+            <string name="viewFrame">31 43 372 19 </string>
+            <ostype name="controlSignature">FTPc</ostype>
+            <int name="controlID">1</int>
+            <boolean name="indeterminate">FALSE</boolean>
+          </object>
+        </array>
+      </object>
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="themeBrush">49</int>
+      <int name="windowPosition">7</int>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <boolean name="inWindowMenu">FALSE</boolean>
+    </object>
+    <reference idRef="167"/>
+    <reference idRef="180"/>
+    <reference idRef="181"/>
+  </array>
+  <array count="4" name="allParents">
+    <reference idRef="1"/>
+    <reference idRef="166"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>DownloadProgress</string>
+    <reference idRef="166"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <unsigned_int name="nextObjectID">182</unsigned_int>
+</object>
