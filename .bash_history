@@ -193,3 +193,44 @@ rails server
 git list
 rev-list
 rev -list
+git remote add origin git@github.com:jg0064/first-app.git
+git push origin master
+git pull git@github.com:jg0064/first-app.git
+git list
+git config user.name
+git config user.email
+cat .git/config
+cat ~/ .gitconfig
+cat .git/config
+git config --list
+git status
+git add .Trash/
+git add .ssh/id_rsa
+git add .ssh/id_rsa.pub
+git commit -m "Second Commit"
+git status
+git status -uno
+git add .bash_history
+git status
+git config status.showuntrackedfiles no
+git status
+git log
+ls
+cd rails_projects
+ls
+cd first_app
+ls
+git status
+git reset HEAD ../../.bash_history
+git status
+git add ../../.bash_history
+git status
+git commit -m "third commit"
+git status
+-u
+git status -u
+git status
+defaults write com.apple.finder AppleShowAllFiles TRUE 
+killall finder
+defaults write com.apple.finder AppleShowAllFiles TRUE 
+killall Finder
